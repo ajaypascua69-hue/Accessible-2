@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Accessible</string>
+    <string name="service_description">Reads focused screen content aloud. Enable this service only when you want to use Accessible.</string>
+</resources>
