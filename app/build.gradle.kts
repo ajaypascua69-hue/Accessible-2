@@ -2,9 +2,11 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
 }
+
 android {
     namespace = "org.ajaypascua.accessible"
     compileSdk = 36
+
     defaultConfig {
         applicationId = "org.ajaypascua.accessible"
         minSdk = 26
@@ -12,4 +14,13 @@ android {
         versionCode = 1
         versionName = "0.1.0"
     }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+}
+
+kotlinOptions {
+    jvmTarget = "17"
 }
